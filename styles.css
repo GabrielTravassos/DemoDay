@@ -6,7 +6,8 @@
 
 body {
   font-family: 'Nunito', sans-serif;
-  color: #ffffff;
+  color: #11001c;
+  font-weight: 900;
   
 }
 
@@ -14,7 +15,7 @@ form {
   max-width: 300px;
   margin: 10px auto;
   padding: 10px 20px;
-  background: #f4f7f8;
+  background: rgb(255, 255, 255);
   border-radius: 8px;
   background-image: url(https://78.media.tumblr.com/aa443d2f6454b9aed6aca5e7df75ddea/tumblr_p55zp3ZxPm1rqftngo1_1280.gif);
   background-size: 100%;
@@ -40,8 +41,8 @@ select {
   outline: 0;
   padding: 15px;
   width: 100%;
-  background-color: #e8eeef;
-  color: #8a97a0;
+  background-color: rgba(48, 104, 201, 0.411);
+  color: #ffffff;
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
   margin-bottom: 30px;
   border-radius: 10px;
@@ -52,16 +53,26 @@ input[type="checkbox"] {
   margin: 0 4px 8px 0;
 }
 
+img{
+  color: rgba(41, 0, 37, 0.8);
+    transform: translateX(0);
+    opacity: 0.5;
+    width: 50px;
+    padding-bottom: 10px;
+}
+
 select {
   padding: 6px;
   height: 32px;
   border-radius: 2px;
 }
 
+
+
 button {
   padding: 19px 39px 18px 39px;
-  color: #FFF;
-  background-color: #4bc970;
+  color: #11001c;
+  background-color: #20499b;
   font-size: 18px;
   text-align: center;
   font-style: normal;
@@ -73,7 +84,7 @@ button {
 }
 
 .button:hover{
-  background-color: rgb(71, 33, 207);
+  background-color: #3062c9;
 
 }
 
@@ -98,7 +109,7 @@ label.job {
 }
 
 .numero {
-  background-color: #5a12ce;
+  background-color: #3062c9;
   color: #fff;
   height: 30px;
   width: 30px;
