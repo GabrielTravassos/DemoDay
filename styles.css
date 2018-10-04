@@ -2,23 +2,25 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  
 }
 
 body {
   font-family: 'Nunito', sans-serif;
-  color: #11001c;
+  color: #3062c9;
   font-weight: 900;
-  
+  background-image: url(https://78.media.tumblr.com/aa443d2f6454b9aed6aca5e7df75ddea/tumblr_p55zp3ZxPm1rqftngo1_1280.gif);
+  background-size: 100%;
 }
 
 form {
   max-width: 300px;
   margin: 10px auto;
   padding: 10px 20px;
-  background: rgb(255, 255, 255);
+  background: #ffffff;
   border-radius: 8px;
-  background-image: url(https://78.media.tumblr.com/aa443d2f6454b9aed6aca5e7df75ddea/tumblr_p55zp3ZxPm1rqftngo1_1280.gif);
-  background-size: 100%;
+  
+
 }
 h1 {
   margin: 0 0 30px 0;
@@ -42,7 +44,7 @@ select {
   padding: 15px;
   width: 100%;
   background-color: rgba(48, 104, 201, 0.411);
-  color: #ffffff;
+  color: #3062c9;
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
   margin-bottom: 30px;
   border-radius: 10px;
